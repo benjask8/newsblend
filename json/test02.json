@@ -1,0 +1,69 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "test01",
+    "dateExported": "2023-08-22T02:53:23.291Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "d081edb0-a0e8-4374-90bc-15bbe4223750",
+            "colId": "5ce625c6-b280-4869-ac27-8eeab8f0dc50",
+            "containerId": "",
+            "name": "http://localhost/MvcVideo/index.php?c=api_Producto&m=listar",
+            "url": "http://localhost/MvcVideo/index.php?c=api_Producto&m=listar",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-08-22T02:18:45.688Z",
+            "modified": "2023-08-22T02:48:47.615Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "c",
+                    "value": "api_Producto",
+                    "isPath": false
+                },
+                {
+                    "name": "m",
+                    "value": "listar",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "a347eb97-a1ac-4901-9de8-1332a23cc91a",
+            "colId": "5ce625c6-b280-4869-ac27-8eeab8f0dc50",
+            "containerId": "",
+            "name": "http://localhost/MvcVideo/index.php?c=api_Producto&m=listar Copy",
+            "url": "http://localhost/MvcVideo/index.php?c=api_Producto&m=crear",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2023-08-22T02:27:19.605Z",
+            "modified": "2023-08-22T02:53:09.466Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "params": [
+                {
+                    "name": "c",
+                    "value": "api_Producto",
+                    "isPath": false
+                },
+                {
+                    "name": "m",
+                    "value": "crear",
+                    "isPath": false
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"codigo\":\"codapi04\",\n  \"descripcion\":\"descripcion\",\n  \"precio\":\"descripcion\",\n  \"fecha\":\"2019-08-22\"\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
